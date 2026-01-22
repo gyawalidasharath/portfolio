@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+element.style{
+    padding: 100px;
+}
+*{
+    margin: 0;
+    padding: 1px;
+}
+.sidebar {
+    background-color:rgba(231, 160, 160, 0.405);
+    padding: 3px;
+    font-family: 'fira sans' , sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease-out;
+
+}
+.sidebar nav{
+    padding: 20px;
+}
+
+.sidebar nav li {
+    list-style-type: none;
+    font-size: 22px;
+    padding: 16px 0;
+}
+
+.sidebar nav li a  {
+    text-decoration: none;
+      color: rgb(15, 3, 3);
+}
+.main {    /* background-color: rgb(220, 220, 57); */ 
+        width: 90vw;
+}
+.container {
+    display:flex;
+}
+
+.missing {
+    padding: 40px;
+    padding-top: 0px;
+}
+
+.infocontainer{
+/* background-color: rgb(233, 10, 215); */
+    height: 40vh;
+    width: 80vw;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+font-size: 31px;
+}
+.name{
+    font-size: 24px;
+    font-weight: bold;
+}
+.about {
+}
+.moreabout{
+    font-size: 18px;
+}
+.button {
+    margin-top:30px ;
+}
+.btn{
+    padding: 9px 15px;
+    border-radius: 21px;
+    background-color: rgb(12, 159, 12);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(20, 92, 155);
+    color: rgb(90, 171, 90);
+}
+.btn {
+    font-size: 15px;
+    padding: 6px 10px;
+    background-color: rgb(12, 159, 12);
+    color: white;
+    font-weight: bold;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 14px;
+}
+.devpic img{
+    height: 40vh;
+}
+.contactform {
+    padding-top: 100px;
+    padding:34px;
+    font-family: 'fira sans',sans-serif;
+}
+.contactform  h3 {
+    font-family: 'source code pro', monospace;
+    text-align: start;
+}
+.contactform form div input{
+    width: auto;
+        border-radius: 6px;
+        margin: 5px 0;
+        padding: 3px;
+}
+div#emailHelp.form-text {
+    font-size: 7px;
+    color: midnightblue;
+    margin: 0 5px; 
+}
+div.blogitem{
+    margin: 20px;
+    font-family: 'fira sans',sans-serif;
+
+}
+
+.blogcontainer h1{
+    margin: 23px;
+    font-family: 'fira sans',sans-serif;
+
+}
+
+.intro{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.intro h2{
+    font-family: 'fira sans',sans-serif;
+    margin-top: 12px;
+    margin-bottom: 7px;
+
+}
+.intro p{
+    font-family: 'source code pro', monospace;
+}
+.intro h3{
+    margin-top: 20px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillitems {
+    display: flex;
+    align-items: center;
+    font-family: 'source code pro', monospace;
+    font-weight: 100;
+
+}
+.skill{
+    width: 265px;
+    height: 7px;
+    background-color: aqua;
+}
+.ninety {
+    width: 265px;
+    background-color: pink;
+}
+.sixty{
+    width: 190px;
+}
+.fifty{
+    width: 125px;
+    background-color: blueviolet;
+}
+.t5{
+    width: 70px;
+    background-color: yellow;
+}
+  .sidebargo{
+    transform: translate(-306px, 0px);
+    position: absolute;
+  }
+.hamburger{
+    position: absolute;
+     cursor: pointer;
+     top: 10px;
+     left: 10px;
+}
+.ham{
+    margin-top: 1px;
+}
+
+
+@media (max-width:700px) {
+  *{
+    background-color: rgb(181, 215, 133);
+  }
+  /* .sidebar{
+    transform: translate(-306px, 0px);
+    position: absolute;
+  } */
+}
+
+.cross{
+    margin-left: 106px;
+    margin-top: -3px;
+}
+
+.services{
+    margin-left: -200px;
+    margin-top: -100px;
+}
+.service-card{
+    padding: 23px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
